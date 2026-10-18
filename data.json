@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "username": "admin",
+      "displayName": "مدیر SSB",
+      "passwordHash": "$2a$10$DOZFirSY.oLjTORBvvd51.p/C7GPtUyTtvQXxJ.ULtPUiexLTiyqW",
+      "role": "admin",
+      "bio": "",
+      "avatar": "avatar-1792129372146-images.jpg"
+    },
+    {
+      "id": "mvcc4qazs9fhfyowmcm",
+      "username": "sina11111",
+      "displayName": "sina",
+      "passwordHash": "$2a$10$vjIjQziAIDf1KmmDssV9W.TNWAP8o2.E/cPf2HnbG0PFKnaTyvSni",
+      "role": "user",
+      "bio": ""
+    }
+  ],
+  "messages": [],
+  "rooms": [
+    {
+      "id": "ssb",
+      "name": "SSB",
+      "type": "channel",
+      "owner": "system",
+      "members": [],
+      "adminOnly": true
+    },
+    {
+      "id": "dm-admin-1-mvcc4qazs9fhfyowmcm",
+      "name": "گفتگو با مدیر SSB",
+      "type": "dm",
+      "owner": "mvcc4qazs9fhfyowmcm",
+      "members": [
+        "admin-1",
+        "mvcc4qazs9fhfyowmcm"
+      ]
+    }
+  ]
+}
